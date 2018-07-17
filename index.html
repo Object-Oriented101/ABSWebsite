@@ -1,40 +1,6 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-<head <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">>
-  <style>
-  body {
-    margin: 0;
-    background-color: #270B61;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  #navbar {
-    background-color: #337aa4;
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    width: 100%;
-    display:block;
-    transition: top 0.3s;
-
-
-  }
-
-  #navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-
-  #navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  </style>
+<head>
 <script type="text/javascript">
 <!--
 if (screen.width <= 699) {
@@ -49,22 +15,7 @@ window.location.replace("http://m.absrehab.com");
 <link rel="icon" type="image/png" href="favicon.png" />
 <link rel="stylesheet" href="css/bootstrap.css">
 </head>
-<body background = "img/blue.jpg">
-
-
-
-  <div id="navbar">
-    <img src="favicon2.png" align="left" width="50px" length="50px" padding:"5px"</img>
-    <a href="#home">Home</a>
-    <a href="#news">Mission</a>
-    <a href="#about">About Us</a>
-    <a href="#appointments">Appointments</a>
-    <a href="#events">Events</a>
-    <a href="#contact">Contact Us</a>
-
-
-  </div>
-<!--
+<body>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header"> <a href="index.html" target="_self"><img src="img/logo.png" alt="Absolute Rehab Logo" height="50"></a></div>
@@ -83,134 +34,51 @@ window.location.replace("http://m.absrehab.com");
       </ul>
     </div>
   </div>
-  <!-- /.container-fluid -->
+  <!-- /.container-fluid --> 
 </nav>
 
 <!-- HEADER -->
 <header>
-
-
 
   <div class="jumbotron">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
           <h1 class="text-center"><img src="img/logo.png" alt="Absolute Rehab Logo" height="100%" /img></h1>
-          <p style="font-size:16px" class="text-center">Absolute Rehab Physical Therapy &amp; Sports Medicine is an independent, experienced, private rehabilitation practice. Physical Therapist owned offering services to rehabilitate after an injury or illness in a comfortable, caring and convenient setting.</p>
-          <p style="font-size:16px" class="text-center">Our highly skilled and experienced therapists are experts in their field. We utilize the most progressive treatment options and state-of-the-art technology to ensure the best possible recovery. Our reputation is built on the promise to exceed your expectations. </p>
-          <p style="font-size:16px" class="text-center">You can view our brochure <i><a href="brochure.pdf">here</a>.</i></p>
-
+          <p style="font-size:21px" class="text-center">Absolute Rehab Center is the premier provider of physical rehabilitation services. We are dedicated to our patients' rapid and satisfactory recovery. Absolute Rehab offers a hands-on, service-oriented approach that our patients value.</p>
+          <div style="float: left; width: 50%;"> </div>
+          <ul class="col-lg-3">
+          </ul>
+          <ul style="font-size:21px" class="col-lg-3 col-md-6">
+            <li>Pain Management</li>
+            <li>Functional Orthopedics</li>
+            <li>Spine/neck & low back conditions</li>
+            <li>Manual Therapy</li>
+            <li>Massage Therapy</li>
+            <li>Pediatric and Adult Rehab</li>
+            <li>Arthritis</li>
+            <li>Headaches</li>
+          </ul>
+          <div style="float: right; width: 50%;">
+            <ul style="font-size:21px" class="col-lg-6">
+              <li>Myofascial pain/ Fibromyalgia</li>
+              <li>Women Health Program</li>
+              <li>Pinched Nerves</li>
+              <li>Sports injuries</li>
+              <li>Work Conditioning</li>
+              <li>Asthma</li>
+              <li>Yoga & Breathing Exercise Program</li>
+            </ul>
+          </div>
+          <p class="text-center">&nbsp; </p>
         </div>
       </div>
     </div>
   </div>
-
-<div class="midbox">
-<div class="slideshow-container">
-
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="img/office.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="img/37388324-minimal-wallpaper.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="img/DroneShore.png" style="width:100%">
-  </div>
-
-</div>
-
-<div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
-
-<div class="bookApp">
-  <p> Ritu Koul, the Clinical Director is a licensed Physical Therapist with over 16 years of clinical and management experience. Her areas of expertise in treating patients range from orthopedic and sports injuries to pain management and spine rehabilitation. She has a special interest in women’s health program, yoga and pranayama (yogic breathing exercises).
-</p>
-</div>
-
-</div>
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-</script>
-
-
- <div class="jumbotron">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-        <h1 class="text-center" font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;>Our Services</h1>
-          <p style="font-size:21px" class="text-center">Absolute Rehab Physical Therapy &amp; Sports Medicine is an independent, experienced, private rehabilitation practice. Physical Therapist owned offering services to rehabilitate after an injury or illness in a comfortable, caring and convenient setting.</p>
-          <div class="multi-column">
-          <div class="column">
-            <ul>
-                <li>Pain Management</li>
-                <li>Functional Orthopedics</li>
-                <li>Spine/Neck & Low Back Conditions</li>
-                <li>Women Health Program</li>
-            </ul>
-          </div>
-          <div class="column">
-            <ul>
-                <li>Manual Therapy</li>
-                <li>Massage Therapy</li>
-                <li>Pediatric and Adult Rehab</li>
-                <li>Pinched Nerves</li>
-            </ul>
-          </div>
-
-          <div class="column">
-            <ul>
-                <li>Arthritis</li>
-                <li>Headaches</li>
-                <li>Myofascial pain/ Fibromyalgia</li>
-                <li>Sports injuries</li>
-            </ul>
-          </div>
-          <div class="column">
-              <ul>
-                <li>Work Conditioning</li>
-                <li>Asthma</li>
-                <li>Yoga & Breathing
-              </ul>
-            </div>
-
-          </div>
-
-          </div> </div> </div> </div>
-
 </header>
-<!-- / HEADER -->
+<!-- / HEADER --> 
 
-
-
-
-<!--  SECTION-1 -->
+<!--  SECTION-1 --> 
 
 <!-- FOOTER -->
 
@@ -223,27 +91,11 @@ function showSlides() {
     </div>
   </div>
 </footer>
-<!-- / FOOTER -->
+<!-- / FOOTER --> 
 
-<script>
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-
-
-
-</script>
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.js"></script>
 </body>
 </html>
