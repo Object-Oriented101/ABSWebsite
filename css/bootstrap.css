@@ -1,5 +1,5 @@
 body{
-  
+
 }
  p{
   padding-left: 7%;
@@ -12,9 +12,12 @@ body{
    margin-bottom: 10%;
  }
 footer{
-  background-color: black;
+  background-color:  #585858;
   font-style: italic;
   color: white;
+  bottom: 0;
+  position : absolute;
+  width: 100%;
 }
  ul, li{
  margin:0;
